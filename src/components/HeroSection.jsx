@@ -1,6 +1,18 @@
 import { ArrowDown } from "lucide-react";
+import { useState, useEffect } from "react";
 
 export const HeroSection = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 30);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
   return (
     <section
       id="hero"
@@ -32,9 +44,11 @@ export const HeroSection = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
-        <ArrowDown className="h-10 w-5 text-foreground"></ArrowDown>
-      </div>
+      {!isScrolled && (
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
+          <ArrowDown className="h-10 w-5 text-foreground" />
+        </div>
+      )}
     </section>
   );
 };
