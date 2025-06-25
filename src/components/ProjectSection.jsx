@@ -12,7 +12,17 @@ const projects = [
     url: "#",
   },
   {
-    id: 1,
+    id: 2,
+    title: "Project One",
+    description:
+      "Description of Project One. Add other stuff here to make the text properly aligned.",
+    image: "/projects/temp.jpg",
+    tags: ["React", "TailwindCSS", "Supabase"],
+    github: "#",
+    url: "#",
+  },
+  {
+    id: 3,
     title: "Project Two",
     description: "Description of Project Two.",
     image: "/projects/temp.jpg",
@@ -21,9 +31,29 @@ const projects = [
     url: "#",
   },
   {
-    id: 1,
+    id: 4,
     title: "Project Three",
     description: "Description of Project Three.",
+    image: "/projects/temp.jpg",
+    tags: ["React", "TailwindCSS", "Supabase"],
+    github: "#",
+    url: "#",
+  },
+  {
+    id: 5,
+    title: "Project Five",
+    description:
+      "Description of Project Five. Add other stuff here to make the text properly aligned.",
+    image: "/projects/temp.jpg",
+    tags: ["React", "TailwindCSS", "Supabase"],
+    github: "#",
+    url: "#",
+  },
+  {
+    id: 6,
+    title: "Project Six",
+    description:
+      "Description of Project Six. Add other stuff here to make the text properly aligned.",
     image: "/projects/temp.jpg",
     tags: ["React", "TailwindCSS", "Supabase"],
     github: "#",

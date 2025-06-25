@@ -33,12 +33,19 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-ld md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Text About Me here
+            Text About Me here. Add location and stuff
           </p>
 
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+          <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
               View My Work
+            </a>
+
+            <a
+              href=""
+              className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+            >
+              Download Resume
             </a>
           </div>
         </div>
