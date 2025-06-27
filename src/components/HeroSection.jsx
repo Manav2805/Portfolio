@@ -1,5 +1,6 @@
 import { ArrowDown } from "lucide-react";
 import { useState, useEffect } from "react";
+import { MapPin } from "lucide-react";
 
 export const HeroSection = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,16 +34,17 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-ld md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Text About Me here. Add location and stuff
+            I am a passionate software developer and researcher from Alberta, Canada.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center animate-fade-in-delay-4">
-            <a href="#projects" className="cosmic-button">
+            <a href="#about" className="cosmic-button">
               View My Work
             </a>
 
             <a
-              href=""
+              href="/src/assets/Resume.pdf"
+              target="_blank"
               className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
             >
               Download Resume

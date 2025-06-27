@@ -2,43 +2,43 @@ import { Briefcase, User, Code2 } from "lucide-react";
 
 const Experience = [
   {
-    title: "Software Development",
+    title: "Research Assistant",
     Company: "University of Calgary",
     description:
-      "Building innovative software solutions using modern technologies.",
+      "Selected as a research student among 200+ applicants to develop optimized C++ algorithms to accelerate computation and handle billions of cubic number fields efficiently",
     icon: <Code2 className="h-6 w-6 text-primary" />,
-    startDate: "Jan 2020",
+    startDate: "May 2025",
     endDate: "Present",
     location: "Calgary, Canada",
   },
   {
     title: "Software Development",
-    Company: "Tech Innovators",
+    Company: "Independent Professional",
     description:
-      "Building innovative software solutions using modern technologies.",
+      "Collaborated with a team to develop scalable infrastructure and deployment automation for multiple large-scale national competitions.",
     icon: <Code2 className="h-6 w-6 text-primary" />,
-    startDate: "Jan 2020",
+    startDate: "Apr 2025",
     endDate: "Present",
     location: "Calgary, Canada",
   },
   {
-    title: "Software Development",
-    Company: "Tech Innovators",
+    title: "Deputy Vice President",
+    Company: "University of Calgary",
     description:
-      "Building innovative software solutions using modern technologies.",
+      "Successfully managed and scaled infrastructure for one of the biggest university club, with 1700+ members.",
     icon: <Code2 className="h-6 w-6 text-primary" />,
-    startDate: "Jan 2020",
+    startDate: "Jul 2024",
     endDate: "Present",
     location: "Calgary, Canada",
   },
   {
-    title: "Software Development",
-    Company: "Tech Innovators",
+    title: "Machine Learning Researcher",
+    Company: "Vision Research Lab",
     description:
-      "Building innovative software solutions using modern technologies.",
+      "Led a 4 member team in developing and training sentiment analysis model designed to analyze social media posts",
     icon: <Code2 className="h-6 w-6 text-primary" />,
-    startDate: "Jan 2020",
-    endDate: "Present",
+    startDate: "Apr 2024",
+    endDate: "Jun 2024",
     location: "Calgary, Canada",
   },
 ];
