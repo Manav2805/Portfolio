@@ -7,7 +7,14 @@ const projects = [
     description:
       "A platform to help users discover, manage, and track recipes tailored to their dietary preferences. It offers personalized AI recommendations and supports community-driven contributions",
     image: "/projects/temp.jpg",
-    tags: ["React", "TypeScript","TailwindCSS", "PostgreSQL", "Flask ","Scikit-Learn"],
+    tags: [
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "PostgreSQL",
+      "Flask ",
+      "Scikit-Learn",
+    ],
     github: "https://github.com/Manav2805/NutriSync",
     url: "https://nutrisync-app.onrender.com/",
   },
@@ -15,40 +22,49 @@ const projects = [
     id: 2,
     title: "Senlyzer",
     description:
-      "AI Model Ensamble that performs sentiment analysis of multi-modal input, leveraging advanced machine learning techniques to provide accurate predictions across text and visual data.",
+      "AI Model that performs sentiment analysis of multi-modal input, leveraging advanced machine learning ensembling techniques to provide accurate predictions across text and visual data.",
     image: "/projects/temp.jpg",
-    tags: ["Pytorch", "Python","TailwindCSS", "Flask", "BERT", "CLIP-ViT"],
+    tags: ["Pytorch", "Python", "TailwindCSS", "Flask", "BERT", "CLIP-ViT"],
     github: "https://github.com/Manav2805/Senlyzer",
     url: "",
   },
   {
     id: 3,
     title: "Iris Monitor",
-    description: "Created a user-friendly desktop app that helps users monitor their computer’s performance in real time. The tool provides clear, up-to-date feedback on system activity with multithread capabilities.",
+    description:
+      "Created a user-friendly desktop app that helps users monitor their computer’s performance in real time. The tool provides up-to-date feedback on system activity with multithread capabilities.",
     image: "/projects/temp.jpg",
-    tags: ["Figma", "Tkinter", "BeautifulSoup", "Matplotlib", "psutil", "threads"],
+    tags: [
+      "Figma",
+      "Tkinter",
+      "BeautifulSoup",
+      "Matplotlib",
+      "psutil",
+      "threads",
+    ],
     github: "https://github.com/Manav2805/IRIS",
     url: "",
   },
   {
     id: 4,
+    title: "Game Center",
+    description:
+      "A scalable game hub platform, enabling users to access and play multiple games seamlessly",
+    image: "/projects/temp.jpg",
+    tags: ["Java", "JavaFX", "Junit", "Figma"],
+    github: "",
+    url: "",
+  },
+  {
+    id: 5,
     title: "Snake & Apple",
-    description: "Snake & Apple is a game developed for Calgary Hacks 2024 using the prompt 'limited space",
+    description:
+      "Snake & Apple is a game developed for Calgary Hacks 2024 using the prompt 'limited space",
     image: "/projects/temp.jpg",
     tags: ["Python", "Pygame"],
     github: "https://github.com/Manav2805/calgary-hacks",
     url: "",
   },
-  // {
-  //   id: 5,
-  //   title: "Project Five",
-  //   description:
-  //     "Description of Project Five. Add other stuff here to make the text properly aligned.",
-  //   image: "/projects/temp.jpg",
-  //   tags: ["React", "TailwindCSS", "Supabase"],
-  //   github: "#",
-  //   url: "#",
-  // },
 ];
 
 export const ProjectSection = () => {
@@ -101,13 +117,15 @@ export const ProjectSection = () => {
                         <ExternalLink size={17} />
                       </a>
                     )}
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      className="text-foreground hover:text-primary transition-colors duration-300"
-                    >
-                      <Github size={17} />
-                    </a>
+                    {project.github?.trim() !== "" && (
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        className="text-foreground hover:text-primary transition-colors duration-300"
+                      >
+                        <Github size={17} />
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
