@@ -34,7 +34,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-ld md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I am a passionate software developer and researcher from Alberta, Canada.
+            Based in Canada, I am an computer science student at the University of Calgary
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center animate-fade-in-delay-4">
@@ -48,6 +48,10 @@ export const HeroSection = () => {
               className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
             >
               Download Resume
+            </a>
+
+            <a href="#contact" className="cosmic-button">
+              Contact Me
             </a>
           </div>
         </div>
