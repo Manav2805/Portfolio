@@ -43,7 +43,7 @@ export const HeroSection = () => {
             </a>
 
             <a
-              href="/src/assets/Resume.pdf"
+              href="/public/assets/Resume.pdf"
               target="_blank"
               className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
             >
