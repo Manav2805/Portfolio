@@ -34,7 +34,7 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-ld md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Based in Canada, I am an computer science student at the University of Calgary
+            Based in Canada, I am a computer science student at the University of Calgary
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center animate-fade-in-delay-4">
