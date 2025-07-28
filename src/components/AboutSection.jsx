@@ -2,7 +2,7 @@ import { Briefcase, User, Code2 } from "lucide-react";
 import { useState } from "react";
 const Experience = [
   {
-    title: "Research Assistant",
+    title: "Software Development Research Intern",
     Company: "University of Calgary",
     description: [
       "Selected as a research student among 200+ applicants to develop optimized C++ algorithms to accelerate computation and handle billions of cubic number fields efficiently",
@@ -15,7 +15,7 @@ const Experience = [
     location: "Calgary, Canada",
   },
   {
-    title: "Software Development",
+    title: "Software Development Engineer",
     Company: "Independent Professional",
     description: [
       "Collaborated with a team to enable scalable infrastructure and deployment automation on Azure DevOps, supporting high-profile national events (organized by MasterCard, Enfocom), handling up to 500 participants",
@@ -41,7 +41,7 @@ const Experience = [
     location: "Calgary, Canada",
   },
   {
-    title: "Machine Learning Researcher",
+    title: "Machine Learning Research Intern",
     Company: "Vision Research Lab",
     description: [
       "Led a 4 member team in developing and training sentiment analysis model designed to analyze social media posts",
