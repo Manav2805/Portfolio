@@ -3,6 +3,25 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "Athletica",
+    description:
+      "Building a microservice architecture fitness app with Spring Boot and Gemini’s AI recommendations",
+    image: "/projects/temp.jpg",
+    tags: [
+      "Java",
+      "SpringBoot",
+      "SpringCloud",
+      "Gemini API",
+      "RabbitMQ ",
+      "Keycloak",
+      "AWS",
+      "MongoDB",
+    ],
+    github: "https://github.com/Manav2805/Athletica",
+    url: "",
+  },
+  {
+    id: 1,
     title: "NutriSync",
     description:
       "A platform to help users discover, manage, and track recipes tailored to their dietary preferences. It offers personalized AI recommendations and supports community-driven contributions",

@@ -2,6 +2,19 @@ import { Briefcase, User, Code2 } from "lucide-react";
 import { useState } from "react";
 const Experience = [
   {
+    title: "Deputy Vice President",
+    Company: "The CyberSecurity Club",
+    description: [
+      "Deployed and containerized 40+ CTF challenges using Docker, streamlining environment consistency and enabling rapid scaling for national hackathons",
+      "Provisioned and managed AWS EC2 instances to ensure high availability and fault tolerance, supporting 100+ teams with zero downtime across major club events",
+      "Developed and contributed to backend systems for multiple club websites serving 1700+ club members",
+    ],
+    icon: <Code2 className="h-6 w-6 text-primary" />,
+    startDate: "Jul 2024",
+    endDate: "Present",
+    location: "Calgary, Canada",
+  },
+  {
     title: "Software Development Research Intern",
     Company: "University of Calgary",
     description: [
@@ -11,7 +24,7 @@ const Experience = [
     ],
     icon: <Code2 className="h-6 w-6 text-primary" />,
     startDate: "May 2025",
-    endDate: "Present",
+    endDate: "Aug 2025",
     location: "Calgary, Canada",
   },
   {
@@ -24,20 +37,7 @@ const Experience = [
     ],
     icon: <Code2 className="h-6 w-6 text-primary" />,
     startDate: "Apr 2025",
-    endDate: "Present",
-    location: "Calgary, Canada",
-  },
-  {
-    title: "Deputy Vice President",
-    Company: "The CyberSecurity Club",
-    description: [
-      "Deployed and containerized 40+ CTF challenges using Docker, streamlining environment consistency and enabling rapid scaling for national hackathons",
-      "Provisioned and managed AWS EC2 instances to ensure high availability and fault tolerance, supporting 100+ teams with zero downtime across major club events",
-      "Developed and contributed to backend systems for multiple club websites serving 1700+ club members",
-    ],
-    icon: <Code2 className="h-6 w-6 text-primary" />,
-    startDate: "Jul 2024",
-    endDate: "Present",
+    endDate: "Aug 2025",
     location: "Calgary, Canada",
   },
   {
