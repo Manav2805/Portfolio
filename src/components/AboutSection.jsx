@@ -2,58 +2,59 @@ import { Briefcase, User, Code2 } from "lucide-react";
 import { useState } from "react";
 const Experience = [
   {
-    title: "Deputy Vice President",
+    title: "Deputy Vice-President",
     Company: "The CyberSecurity Club",
     description: [
-      "Deployed and containerized 40+ CTF challenges using Docker, streamlining environment consistency and enabling rapid scaling for national hackathons",
-      "Provisioned and managed AWS EC2 instances to ensure high availability and fault tolerance, supporting 100+ teams with zero downtime across major club events",
-      "Developed and contributed to backend systems for multiple club websites serving 1700+ club members",
+      "Enabled rapid, scalable deployment of 40+ CTF challenges by implementing Docker containerization across multiple national hackathons, improving environment stability for 70+ teams",
+      "Maintained zero downtime and supported 100+ teams during major club events by provisioning AWS EC2 instances with fault-tolerant architecture",
+      "Enhanced reliability and scalability of club websites serving 1,700+ members through backend infrastructure improvements",
     ],
     icon: <Code2 className="h-6 w-6 text-primary" />,
     startDate: "Jul 2024",
     endDate: "Present",
-    location: "Calgary, Canada",
-  },
-  {
-    title: "Software Development Research Intern",
-    Company: "University of Calgary",
-    description: [
-      "Selected as a research student among 200+ applicants to develop optimized C++ algorithms to accelerate computation and handle billions of cubic number fields efficiently",
-      "Facilitated large-scale tabulation of cubic number fields beyond the 1,000,000 cubic number fields covered by the last major computation in 1990",
-      "Aiming to contribute toward a joint publication, current work is estimated to save several months of compute time through algorithmic and system-level improvements",
-    ],
-    icon: <Code2 className="h-6 w-6 text-primary" />,
-    startDate: "May 2025",
-    endDate: "Aug 2025",
-    location: "Calgary, Canada",
+    location: "Alberta, Canada",
   },
   {
     title: "Software Development Engineer",
     Company: "Independent Professional",
     description: [
-      "Collaborated with a team to enable scalable infrastructure and deployment automation on Azure DevOps, supporting high-profile national events (organized by MasterCard, Enfocom), handling up to 500 participants",
-      "Authored custom build and validation scripts for automated challenge testing, reducing QA cycles by approximately 35% and boosting system reliability across all competition environments",
-      "Engineered end-to-end CI/CD workflows leveraging Docker, resulting in a 30% reduction in deployment time",
+      "Spearheaded scalable infrastructure and deployment automation on Azure DevOps for high-profile national events (organized by MasterCard, Enfocom), supporting up to 500 participants",
+      "Achieved 35% reduction in QA cycles and improved system reliability by authoring 20+ build and validation scripts for automated challenge testing",
+      "Engineered end-to-end CI/CD workflows leveraging Docker, reducing deployment time by 30%",
     ],
     icon: <Code2 className="h-6 w-6 text-primary" />,
     startDate: "Apr 2025",
     endDate: "Aug 2025",
-    location: "Calgary, Canada",
+    location: "Remote, Canada",
+  },
+  {
+    title: "Software Development Research Intern",
+    Company: "University of Calgary",
+    description: [
+      "Selected as a research intern among 200+ applicants to develop optimized C++ algorithms for large-scale tabulation of cubic number fields beyond the 1,000,000 fields covered in 1990",
+      "Implemented optimizations achieving a √n runtime improvement, reducing compute time by 71 days",
+      "Contributed toward advancing computational number theory research with algorithmic and system-level improvements",
+    ],
+    icon: <Code2 className="h-6 w-6 text-primary" />,
+    startDate: "May 2025",
+    endDate: "Aug 2025",
+    location: "Alberta, Canada",
   },
   {
     title: "Machine Learning Research Intern",
     Company: "Vision Research Lab",
     description: [
-      "Led a 4 member team in developing and training sentiment analysis model designed to analyze social media posts",
-      "Developed and optimized data preprocessing and augmentation pipelines, applied hyperparameter tuning and regularization techniques to mitigate overfitting, increasing model accuracy by 17%",
-      "Leveraged LLM Model Ensemble techniques and integrated CLIP Vision-Transformer to jointly analyze multi-modal inputs, achieving 80% in contextual sentiment prediction",
+      "Led a 6 member team in developing a sentiment analysis model designed to analyze social media posts",
+      "Optimized preprocessing and augmentation pipelines, applied hyperparameter tuning and regularization, boosting model prediction accuracy by 17%",
+      "Applied LLM Model Ensemble techniques and integrated CLIP Vision-Transformer for multi-modal input analysis, achieving 80% accuracy in contextual sentiment prediction",
     ],
     icon: <Code2 className="h-6 w-6 text-primary" />,
     startDate: "Apr 2024",
     endDate: "Jun 2024",
-    location: "Calgary, Canada",
+    location: "Alberta, Canada",
   },
 ];
+
 
 export const AboutSection = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
