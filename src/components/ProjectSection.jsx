@@ -51,7 +51,7 @@ const projects = [
     id: 3,
     title: "Iris Monitor",
     description:
-      "Created a user-friendly desktop app that helps users monitor their computer’s performance in real time. The tool provides up-to-date feedback on system activity with multithread capabilities.",
+      "A user-friendly desktop app that helps users monitor their computer’s performance in real time with multithread capabilities.",
     image: "/projects/temp.jpg",
     tags: [
       "Figma",
@@ -78,7 +78,7 @@ const projects = [
     id: 5,
     title: "Snake & Apple",
     description:
-      "Snake & Apple is a game developed for Calgary Hacks 2024 using the prompt 'limited space",
+      "Snake & Apple is a game developed for Calgary Hacks 2024 using the prompt 'limited space'",
     image: "/projects/temp.jpg",
     tags: ["Python", "Pygame"],
     github: "https://github.com/Manav2805/calgary-hacks",
