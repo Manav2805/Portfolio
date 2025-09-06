@@ -2,6 +2,17 @@ import { Briefcase, User, Code2 } from "lucide-react";
 import { useState } from "react";
 const Experience = [
   {
+    title: "Software Development Intern",
+    Company: "Studeo",
+    description: [
+      "Incoming Software Development Intern at Studeo",
+    ],
+    icon: <Code2 className="h-6 w-6 text-primary" />,
+    startDate: "Sept 2025",
+    endDate: "Present",
+    location: "Alberta, Canada",
+  },
+  {
     title: "Deputy Vice-President",
     Company: "The CyberSecurity Club",
     description: [
