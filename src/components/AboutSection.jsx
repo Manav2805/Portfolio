@@ -6,7 +6,8 @@ const Experience = [
     Company: "Studeo",
     description: [
       "Designed and deployed n8n-based automations with Clay tables, eliminating 5 hours/week of manual lead enrichment by employing multi-step workflow execution",
-      "Partnered with the CEO to improve workflow orchestration, increasing outreach by 60+ new members"
+      "Engineered an interactive summarization tool, implementing NLP and automation pipeline that transforms web-based video content into storybook-style infographics, extending clients’ outreach to 100k+ users",
+      "Boosted outreach by 100+ new members by translating business solutions to technical implementations",
     ],
     icon: <Code2 className="h-6 w-6 text-primary" />,
     startDate: "Sept 2025",
@@ -64,7 +65,6 @@ const Experience = [
     location: "Calgary, Alberta",
   },
 ];
-
 
 export const AboutSection = () => {
   const [expandedIndex, setExpandedIndex] = useState(null);
