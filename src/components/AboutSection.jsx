@@ -2,7 +2,7 @@ import { Briefcase, User, Code2 } from "lucide-react";
 import { useState } from "react";
 const Experience = [
   {
-    title: "Software Development Intern",
+    title: "SDE - Independent Contractor",
     Company: "Studeo",
     description: [
       "Designed and deployed n8n-based automations with Clay tables, eliminating 5 hours/week of manual lead enrichment by employing multi-step workflow execution",
@@ -11,7 +11,7 @@ const Experience = [
     ],
     icon: <Code2 className="h-6 w-6 text-primary" />,
     startDate: "Sept 2025",
-    endDate: "Present",
+    endDate: "Apr 2026",
     location: "Toronto, Ontario",
   },
   {
@@ -23,12 +23,12 @@ const Experience = [
     ],
     icon: <Code2 className="h-6 w-6 text-primary" />,
     startDate: "Jul 2024",
-    endDate: "Present",
+    endDate: "Dec 2025",
     location: "Calgary, Alberta",
   },
   {
-    title: "Software Development Engineer",
-    Company: "Independent Professional",
+    title: "SDE - Independent Contractor",
+    Company: "Enfocom Cyber",
     description: [
       "Spearheaded developments to build scalable infrastructure and deployment automation on Azure DevOps to support high-profile national events (by Mastercard, Enfocom), handling up to 500 participants",
       "Achieved 35% reduction in QA cycles and improved system reliability across competition environments by authoring 20+ build and validation scripts for automated challenge testing and deployment",
@@ -52,7 +52,7 @@ const Experience = [
     location: "Calgary, Alberta",
   },
   {
-    title: "Machine Learning Research Intern",
+    title: "Machine Learning Research Student",
     Company: "Vision Research Lab",
     description: [
       "Led a 6 member team in developing a sentiment analysis model designed to jointly analyze multi-modal inputs from social media, achieving 80% accuracy in overall contextual sentiment prediction",
